@@ -1,0 +1,145 @@
+a{
+    color:#71B8EF;
+    text-decoration: none;
+}
+*{
+    margin: 0;
+}
+.logo{
+    padding: 5px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.header{
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color:#fff;
+}
+.header_section{
+    display: flex;
+    align-items: center;
+}
+h1{
+    color: #BB57FF;
+    margin-left: 130px;
+    font-family: cursive;
+}
+.nav_item{
+    cursor: pointer;
+    padding: 8px 10px;
+    font-size: 18px;
+    
+}
+.nav_item:hover{
+    background-color: #EEF3F5;
+    border-radius: 4px;
+}
+body{
+    font-size: 17px;
+    background: #000;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.form {
+    width: 960px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #222222;
+}
+.form-right {
+    width: 440px;
+    margin-top: 0px;
+}
+.form-left {
+    width: 440px;
+    margin-top: 90px;
+    padding-right: 0px;
+}
+.form-left p {
+    margin-top: 44px;
+    font-family: sans-serif;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+h3 {
+    font-family: Courier;
+    font-size: 24pt;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.inp-area {
+    display: inline-block;
+    height: 50px;
+    margin-bottom: 10px;
+}
+    form input {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.sub-btn {
+    background-color: #71B8EF;
+    width: 215px;
+    height: 50px;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    font-family: serif
+}
+.sub-btn img {
+    margin-left: 6px;
+}
+.sub-btn a:hover{
+    color:deeppink;
+}
+span{
+    color:#fff;
+}
+h2{
+    color: #BB57FF; 
+    height:35px;
+    margin-top: 30px;
+    max-width: 400px;
+    margin-left: 700px;
+}
+h4{
+    color: #BB57FF; 
+    height:35px;
+    margin-top: 30px;
+    max-width: 400px;
+    margin-left: 680px;
+}
+footer{
+display: flex;
+background-color: #fff;
+margin-top: 269px;
+}
+p{
+color:#BB57FF;
+padding:25px;
+font-size: 20px;
+}
+h3{
+    color: #BB57FF; 
+    height:35px;
+    max-width: 400px;
+    margin-left: 1400px;
+}
+h5{
+    color: #BB57FF; 
+    height:35px;
+    margin-top: 0px;
+    max-width: 400px;
+    margin-left: 1360px;
+    font-size: 18px;
+}
